@@ -1,0 +1,69 @@
+body {
+  width: 960px;
+}
+
+.title_box {
+  background: url(../img/main_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title_box_title {
+  font-size: 44px;
+  color: white;
+}
+
+.title_box_text {
+  font-size: 24px;
+  color: white;
+}
+
+.text_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text_box div {
+  width: 85%;
+  /* 横並び */
+  display: flex;
+  /* 左右中央揃え */
+  justify-content: center;
+  /* 上下中央 */
+  align-items: center;
+  /* 縦並び */
+  flex-direction: column;
+}
+
+.image_box {
+  display: flex;
+}
+
+.image_box_image {
+  width: 50%;
+}
+
+.image_box_text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightgray;
+}
+
+.image_box_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image_box_text div {
+  width: 85%;
+}
